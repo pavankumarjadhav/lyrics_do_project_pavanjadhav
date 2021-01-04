@@ -1,0 +1,138 @@
+
+  @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+  @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: powderblue;
+    font-family: Lato, sans-serif;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 6rem auto;
+  }
+  
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 30%;
+    margin-top: 120px;
+    margin-left: 402px;
+    height: 2.8rem;
+    background: #F5F598;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    margin-top: 120px;
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+    background
+    : yellowgreen;
+  }
+
+
+
+  /* list css */
+
+  
+
+
+  .container {
+    margin-top: 200px;
+    width: 450px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: slide-down 1s ease-out;
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  a {
+    display: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 0;
+    transition: margin-left .125s ease-in;
+  
+  }
+  
+  li a {
+    float: right;
+  }
+  
+  li.active {
+    color: #B71C1C; 
+    margin-left: -20px;
+  }
+  
+  li.active a {
+    display: inline-block;
+  }
+ 
+
+  /* loader */
+
+
+  
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
