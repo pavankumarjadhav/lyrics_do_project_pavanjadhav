@@ -136,3 +136,29 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+  .hide_button
+  {
+    display: none;
+  }
+.show-lyrics-button
+{
+  background-color: #4CAD74;
+    border: none;
+    color: white;
+    padding: 5px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+  .lyrics-design
+  {
+    height: 69%;
+    margin: 120px;
+    padding: 0;
+    font-family: cursive;
+  }
